@@ -1,0 +1,38 @@
+{
+  "tweet_eval_sentiment": {
+    "NB": "RSW - LOW",
+    "SVM": "RSW",
+    "LR": "RSW - STM - LOW",
+    "AdaBoost": "RSW - LOW",
+    "XGBoost": "RSW - LOW",
+    "RF": "DON",
+    "DT": "RSW - STM - LOW"
+  },
+  "ag_news": {
+    "NB": "LOW",
+    "SVM": "DON",
+    "LR": "DON",
+    "AdaBoost": "STM",
+    "XGBoost": "RSW",
+    "RF": "RSW",
+    "DT": "DON"
+  },
+  "reuters21578_ModLewis": {
+    "NB": "RSW - LOW",
+    "SVM": "RSW - LOW",
+    "LR": "LOW - RSW",
+    "AdaBoost": "RSW - LOW",
+    "XGBoost": "DON",
+    "RF": "RSW - LOW",
+    "DT": "RSW"
+  },
+  "ccdv_arxiv-classification": {
+    "NB": "DON",
+    "SVM": "DON",
+    "LR": "DON",
+    "AdaBoost": "RSW - LOW",
+    "XGBoost": "RSW",
+    "RF": "LOW",
+    "DT": "LOW"
+  }
+}
