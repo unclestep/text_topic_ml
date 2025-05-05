@@ -1,5 +1,0 @@
-model,best_prepo_func,max_accuracy
-AdaBoost,RSW_LOW,0.46
-XGBoost,DON,0.48
-RandomForest,RSW_LOW,0.48
-DecisionTree,RSW,0.44

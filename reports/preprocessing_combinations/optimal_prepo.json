@@ -1,38 +1,29 @@
 {
   "tweet_eval_sentiment": {
-    "NB": "RSW - LOW",
-    "SVM": "RSW",
-    "LR": "RSW - STM - LOW",
-    "AdaBoost": "RSW - LOW",
-    "XGBoost": "RSW - LOW",
-    "RF": "DON",
-    "DT": "RSW - STM - LOW"
+    "NB": "LOW",
+    "SVM": "STM",
+    "LR": "STM",
+    "AdaBoost": "DON",
+    "XGBoost": "DON",
+    "RF": "RSW",
+    "DT": "LOW - RSW - STM"
   },
   "ag_news": {
-    "NB": "LOW",
-    "SVM": "DON",
+    "NB": "DON",
+    "SVM": "LOW",
     "LR": "DON",
-    "AdaBoost": "STM",
+    "AdaBoost": "RSW - LOW",
     "XGBoost": "RSW",
     "RF": "RSW",
-    "DT": "DON"
-  },
-  "reuters21578_ModLewis": {
-    "NB": "RSW - LOW",
-    "SVM": "RSW - LOW",
-    "LR": "LOW - RSW",
-    "AdaBoost": "RSW - LOW",
-    "XGBoost": "DON",
-    "RF": "RSW - LOW",
     "DT": "RSW"
   },
-  "ccdv_arxiv-classification": {
-    "NB": "DON",
+  "20newsgroups": {
+    "NB": "RSW",
     "SVM": "DON",
     "LR": "DON",
-    "AdaBoost": "RSW - LOW",
-    "XGBoost": "RSW",
-    "RF": "LOW",
+    "AdaBoost": "LOW",
+    "XGBoost": "DON",
+    "RF": "DON",
     "DT": "LOW"
   }
 }
