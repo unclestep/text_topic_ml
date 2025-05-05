@@ -1,5 +1,8 @@
 model,best_prepo_func,max_accuracy
-AdaBoost,STM,0.54
-XGBoost,RSW,0.5
-RandomForest,RSW,0.54
-DecisionTree,DON,0.42
+NB,DON,0.44
+SVM,LOW,0.44
+LR,DON,0.48
+AdaBoost,RSW_LOW,0.44
+XGBoost,RSW,0.46
+RandomForest,RSW,0.44
+DecisionTree,RSW,0.38
