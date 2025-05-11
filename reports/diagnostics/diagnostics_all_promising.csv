@@ -1,0 +1,16 @@
+dataset,prepo_funcs,model,hybrid,rows,cols,outlier_%,high_corr_%,mean_corr
+20newsgroups,RSW,NB,bow+tfidf,1736,100000,2.02,0.002,0.0032
+20newsgroups,DON,SVM,tfidf+word2vec_cbow,1736,50300,2.02,0.001,0.0213
+20newsgroups,DON,SVM,tfidf+fasttext,1736,50300,2.02,0.001,0.0157
+ag_news,LOW,SVM,tfidf+glove,68280,50300,0.59,0.0,0.0047
+ag_news,LOW,SVM,tfidf+word2vec_cbow,68280,50300,0.59,0.0,0.0082
+ag_news,LOW,SVM,tfidf+word2vec_sg,68280,50300,0.59,0.0,0.0051
+ag_news,LOW,SVM,tfidf+fasttext,68280,50300,0.59,0.0,0.0052
+ag_news,DON,LR,bow+word2vec_sg,68280,50300,0.59,0.0,0.005
+ag_news,DON,LR,bow+fasttext,68280,50300,0.59,0.0,0.0051
+tweet_eval_sentiment,STM,LR,tfidf+word2vec_sg,23091,50300,1.73,0.0,0.0069
+tweet_eval_sentiment,STM,LR,tfidf+fasttext,23091,50300,1.73,0.0,0.0075
+tweet_eval_sentiment,STM,LR,tfidf+glove,23091,50300,1.73,0.0,0.0035
+tweet_eval_sentiment,STM,LR,tfidf+word2vec_cbow,23091,50300,1.73,0.0,0.0127
+tweet_eval_sentiment,STM,LR,bow+glove,23091,50300,1.73,0.0,0.0035
+tweet_eval_sentiment,STM,SVM,tfidf+glove,23091,50300,1.73,0.0,0.0035

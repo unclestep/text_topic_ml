@@ -1,0 +1,4 @@
+dataset,size,model,prepo_funcs,hybrid,accuracy,recall,f1,train_time
+20newsgroups,large,NB,RSW,bow+tfidf,0.742,0.741,0.741,0.14739
+20newsgroups,large,SVM,DON,tfidf+word2vec_cbow,0.741,0.74,0.734,13.61226
+20newsgroups,large,SVM,DON,tfidf+fasttext,0.73,0.729,0.723,8.01802

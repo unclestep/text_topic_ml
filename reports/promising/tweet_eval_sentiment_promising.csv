@@ -1,0 +1,7 @@
+dataset,size,model,prepo_funcs,hybrid,accuracy,recall,f1,train_time
+tweet_eval_sentiment,small,LR,STM,tfidf+word2vec_sg,0.644,0.644,0.642,43.8743
+tweet_eval_sentiment,small,LR,STM,tfidf+fasttext,0.642,0.642,0.641,45.08216
+tweet_eval_sentiment,small,LR,STM,tfidf+glove,0.641,0.641,0.64,57.25595
+tweet_eval_sentiment,small,LR,STM,tfidf+word2vec_cbow,0.639,0.639,0.637,55.73477
+tweet_eval_sentiment,small,LR,STM,bow+glove,0.629,0.629,0.63,53.90975
+tweet_eval_sentiment,small,SVM,STM,tfidf+glove,0.63,0.63,0.629,142.34613

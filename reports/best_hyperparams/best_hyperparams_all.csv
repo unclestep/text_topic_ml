@@ -1,0 +1,4 @@
+dataset,prepo_func,model,hybrid,best_params,f1,accuracy,recall,train_time,cv_mean
+tweet_eval_sentiment,STM,LR,tfidf+word2vec_sg,"{""C"": 2, ""penalty"": ""l1"", ""solver"": ""liblinear""}",0.649,0.65,0.65,3030.58558,0.644
+ag_news,LOW,SVM,tfidf+glove,"{""C"": 0.5, ""dual"": false, ""loss"": ""squared_hinge""}",0.925,0.925,0.925,495.13069,0.922
+20newsgroups,RSW,NB,bow+tfidf,{},0.741,0.742,0.741,1.42325,

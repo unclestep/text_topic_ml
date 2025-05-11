@@ -1,0 +1,7 @@
+dataset,size,model,prepo_funcs,hybrid,accuracy,recall,f1,train_time
+ag_news,medium,SVM,LOW,tfidf+glove,0.924,0.924,0.924,216.48169
+ag_news,medium,SVM,LOW,tfidf+word2vec_cbow,0.923,0.923,0.923,284.44425
+ag_news,medium,SVM,LOW,tfidf+word2vec_sg,0.923,0.923,0.923,162.27504
+ag_news,medium,SVM,LOW,tfidf+fasttext,0.923,0.923,0.923,151.3826
+ag_news,medium,LR,DON,bow+word2vec_sg,0.917,0.917,0.916,114.79416
+ag_news,medium,LR,DON,bow+fasttext,0.916,0.916,0.916,116.50532
